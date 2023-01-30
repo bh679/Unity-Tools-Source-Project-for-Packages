@@ -13,9 +13,6 @@
 #Ignore further git projects 
 **.git
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
-
 #Ignore Private Keys & Webhooks
 /[Aa]ssets/BrennanHatton/Webhooks/*.txt
 /[Aa]ssets/BrennanHatton/Private Keys/*.txt
@@ -24,6 +21,9 @@
 /[Aa]ssets/BNG Framework/*
 !/[Aa]ssets/BNG Framework/Scripts/BNG Core.asmdef
 !/[Aa]ssets/BNG Framework/HandPoser/Scripts/BNG.HandPose.asmdef
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 /[Aa]ssets/Plugins/RootMotion*
 /[Aa]ssets/Plugins/Editor/ScriptInspector*
