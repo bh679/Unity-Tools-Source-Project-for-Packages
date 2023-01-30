@@ -10,16 +10,16 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-#Asset Store Assets
-/[Aa]ssets/BNG Framework*
-/[Aa]ssets/Plugins/RootMotion*
-/[Aa]ssets/Plugins/Editor/ScriptInspector*
-
 #Ignore further git ignores 
 **.gitignore
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+
+#Asset Store Assets
+/[Aa]ssets/BNG Framework*
+/[Aa]ssets/Plugins/RootMotion*
+/[Aa]ssets/Plugins/Editor/ScriptInspector*
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
