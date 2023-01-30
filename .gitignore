@@ -10,8 +10,12 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-#Ignore further git ignores 
-**.gitignore
+#Ignore Private Keys & Webhooks
+/[Aa]ssets/BrennanHatton/Webhooks/*.txt
+/[Aa]ssets/BrennanHatton/Private Keys/*.txt
+
+#Ignore further git projects 
+**.git
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
