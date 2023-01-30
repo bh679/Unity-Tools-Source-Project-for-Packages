@@ -11,8 +11,8 @@
 /[Mm]emoryCaptures/
 
 #Asset Store Assets
-/Assets/BNG Framework
-/Assets/Plugins/RootMotion
+/Assets/BNG Framework*
+/Assets/Plugins/RootMotion*
 
 #Ignore further git ignores 
 **.gitignore
